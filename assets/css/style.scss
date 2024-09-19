@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.container{
+    max-width: 1020px;
+    margin: 0 auto;
+}
+
+.intro{
+    background: url("../img/bg-main.png") no-repeat center center/ cover;
+    padding: 208px 0 400px 0;
+    &__title{
+        color: #fff;
+        font-size: 56px;
+        font-weight: 900;
+        max-width: 585px;
+    }
+   
+}
+
+.dog{
+    margin-top: -80px;
+    margin-bottom: 180px;
+    &__wrap{
+        position: relative;
+        background-color: #5D62B5;
+        padding: 100px 87px 0px 87px; 
+        border-radius: 40px;
+    }
+    &__dots{
+        position: absolute;
+        top:-110px;
+        right: -70px;
+    }
+
+    &__subtitle{
+        color: #F5F5F5;
+        font-weight: 700;
+        font-size: 12px;
+        text-transform: uppercase;
+
+        &-box{
+            display: flex;
+            align-items: center;
+            margin-bottom: 33px;
+        }
+    }
+
+    &__title{
+        color: #fff;
+        font-size: 36px;
+        font-weight: 900;
+        max-width: 583px;
+        margin-bottom: 36px;
+    }
+
+    &__text{
+        color: #F5F5F5;
+        font-weight: 500;
+        font-size: 16px;
+        margin-bottom: 54px;
+    }
+
+    &__foto{
+        margin-bottom: 120px;
+        position: relative;
+        bottom: -120px;
+
+        & img{
+            border-radius: 40px;
+        }
+
+        
+    }
+    &__blob{
+        position: absolute;
+        top: 370px;
+        left: -20px;
+        z-index: 0;
+
+    }
+    
+}
+
+.care{
+
+
+    &__promise{
+        display: flex;
+        align-items: center;
+        margin-bottom: 33px;
+        p{
+            color: #5D62B5;
+            font-size: 12px;
+        }
+    }
+
+    &__title{
+        font-weight: 900;
+        font-size: 36px;
+        margin-bottom: 68px;
+    }
+
+    &__cards{
+
+        display: flex;
+        gap: 24px;
+
+        
+        div.care__card{
+            display: flex;
+            gap: 33px;
+        }
+        p.text-1{
+            color: #F2726F;
+            font-size: 19px;
+            font-weight: 900;
+            margin-bottom: 20px;
+        }
+        p.text-2{
+            color: #4B4B4B;
+            font-weight: 400;
+            font-size: 16px;
+        }
+        
+    }
+    
+}
+
+.ball{
+    margin-top: 122px;
+    background-color: #29C3BE;
+    max-height: 500px;
+    
+
+
+    &__title{
+        
+        color: #fff;
+        max-width: 411px;
+        font-size: 36px;
+        font-weight: 900;
+    }
+
+    &__btn{
+        margin-top: 45px;
+        color: #fff;
+        font-size: 15px;
+        font-weight: bold;
+        border-color: #F2726F;
+        background-color: #F2726F;
+        border-radius: 8px;
+        width: 210px;
+        height: 48px;
+    }
+
+    &__texts{
+        position: absolute;
+        right: 210px;
+        top: 2190px;
+        z-index: 1;
+    
+    }
+
+    &__Blob{
+        position: relative;
+        left: -250px;
+        z-index: 1;
+    }
+
+    &__Circles{
+        position: relative;
+        left: -850px;
+        bottom: 660px;
+    }
+
+    &__pup {
+        position: relative;
+        left: -200px;
+        bottom: 208px;
+        z-index: 1;
+    }
+
+    &__Line {
+        position: relative;
+        bottom: 710px;
+        left: 560px;
+    }
+
+    &__ball {
+        position: relative;
+        left: 290px;
+        bottom: 798px;
+    }
+
+}
+

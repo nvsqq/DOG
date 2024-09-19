@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: 1020px;
+  margin: 0 auto;
+}
+
+.intro {
+  background: url("../img/bg-main.png") no-repeat center center/cover;
+  padding: 208px 0 400px 0;
+}
+.intro__title {
+  color: #fff;
+  font-size: 56px;
+  font-weight: 900;
+  max-width: 585px;
+}
+
+.dog {
+  margin-top: -80px;
+  margin-bottom: 180px;
+}
+.dog__wrap {
+  position: relative;
+  background-color: #5D62B5;
+  padding: 100px 87px 0px 87px;
+  border-radius: 40px;
+}
+.dog__dots {
+  position: absolute;
+  top: -110px;
+  right: -70px;
+}
+.dog__subtitle {
+  color: #F5F5F5;
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.dog__subtitle-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 33px;
+}
+.dog__title {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 900;
+  max-width: 583px;
+  margin-bottom: 36px;
+}
+.dog__text {
+  color: #F5F5F5;
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 54px;
+}
+.dog__foto {
+  margin-bottom: 120px;
+  position: relative;
+  bottom: -120px;
+}
+.dog__foto img {
+  border-radius: 40px;
+}
+.dog__blob {
+  position: absolute;
+  top: 370px;
+  left: -20px;
+  z-index: 0;
+}
+
+.care__promise {
+  display: flex;
+  align-items: center;
+  margin-bottom: 33px;
+}
+.care__promise p {
+  color: #5D62B5;
+  font-size: 12px;
+}
+.care__title {
+  font-weight: 900;
+  font-size: 36px;
+  margin-bottom: 68px;
+}
+.care__cards {
+  display: flex;
+  gap: 24px;
+}
+.care__cards div.care__card {
+  display: flex;
+  gap: 33px;
+}
+.care__cards p.text-1 {
+  color: #F2726F;
+  font-size: 19px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+.care__cards p.text-2 {
+  color: #4B4B4B;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.ball {
+  margin-top: 122px;
+  background-color: #29C3BE;
+  max-height: 500px;
+}
+.ball__title {
+  color: #fff;
+  max-width: 411px;
+  font-size: 36px;
+  font-weight: 900;
+}
+.ball__btn {
+  margin-top: 45px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  border-color: #F2726F;
+  background-color: #F2726F;
+  border-radius: 8px;
+  width: 210px;
+  height: 48px;
+}
+.ball__texts {
+  position: absolute;
+  right: 210px;
+  top: 2190px;
+  z-index: 1;
+}
+.ball__Blob {
+  position: relative;
+  left: -250px;
+  z-index: 1;
+}
+.ball__Circles {
+  position: relative;
+  left: -850px;
+  bottom: 660px;
+}
+.ball__pup {
+  position: relative;
+  left: -200px;
+  bottom: 208px;
+  z-index: 1;
+}
+.ball__Line {
+  position: relative;
+  bottom: 710px;
+  left: 560px;
+}
+.ball__ball {
+  position: relative;
+  left: 290px;
+  bottom: 798px;
+}
